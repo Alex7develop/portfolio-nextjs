@@ -17,19 +17,19 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Magazine App"
+            title="Shop Online"
             backgroundImg={magazineImg}
             projectUrl="/magazine"
             tech="React Redux"
           />
           <ProjectItem
-            title="Tetris Game App"
+            title="Play Tetris"
             backgroundImg={tetrisImg}
             projectUrl="/tetris"
             tech="JavaScript"
           />
           <ProjectItem
-            title="Got of WAR"
+            title="God of WAR"
             backgroundImg={webGameImg}
             projectUrl="/webgame"
             tech="React Webpack Swiper"
