@@ -3,6 +3,8 @@ import tetrisImg from '../public/assets/projects/tetris.jpg';
 import webGameImg from '../public/assets/projects/webgame.png';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import magazineImg from '../public/assets/projects/magazine.jpg';
+import onlineImg from '../public/assets/projects/online.png';
+import smegImg from '../public/assets/projects/smeg.png';
 import parallaxImg from '../public/assets/projects/parallax.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
 import ProjectItem from './ProjectItem';
@@ -34,7 +36,7 @@ const Projects = () => {
             projectUrl="/webgame"
             tech="React Webpack Swiper"
           />
-          {/* <ProjectItem
+          <ProjectItem
             title="Twitch UI"
             backgroundImg={twitchImg}
             projectUrl="/twitch"
@@ -45,12 +47,24 @@ const Projects = () => {
             backgroundImg={parallaxImg}
             projectUrl="/parallax"
             tech="Parallax"
-          /> */}
+          />
            <ProjectItem
             title="CSS & Parallax & Scroll"
             backgroundImg={parallax3dImg}
             projectUrl="/parallax3d"
             tech="Parallax"
+          />
+            <ProjectItem
+            title="Online Chat"
+            backgroundImg={onlineImg}
+            projectUrl="/online"
+            tech="Socket.io"
+          />
+            <ProjectItem
+            title="Web site"
+            backgroundImg={smegImg}
+            projectUrl="/smeg"
+            tech="HTML/CSS/JS"
           />
         </div>
       </div>
