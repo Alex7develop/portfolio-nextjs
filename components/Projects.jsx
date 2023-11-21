@@ -34,7 +34,7 @@ const Projects = () => {
             projectUrl="/webgame"
             tech="React Webpack Swiper"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Twitch UI"
             backgroundImg={twitchImg}
             projectUrl="/twitch"
@@ -45,7 +45,7 @@ const Projects = () => {
             backgroundImg={parallaxImg}
             projectUrl="/parallax"
             tech="Parallax"
-          />
+          /> */}
            <ProjectItem
             title="CSS & Parallax & Scroll"
             backgroundImg={parallax3dImg}
