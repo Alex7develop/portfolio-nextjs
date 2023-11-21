@@ -5,7 +5,7 @@ import twitchImg from '../public/assets/projects/twitch.jpg';
 import magazineImg from '../public/assets/projects/magazine.jpg';
 import onlineImg from '../public/assets/projects/online.png';
 import smegImg from '../public/assets/projects/smeg.png';
-import parallaxImg from '../public/assets/projects/parallax.png';
+import parallaxImg from '../public/assets/projects/2d.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
 import ProjectItem from './ProjectItem';
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import parallaxImg from '../public/assets/projects/parallax.png';
+import parallaxImg from '../public/assets/projects/2d.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -63,6 +63,9 @@ const property = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Parallax
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> HTML
