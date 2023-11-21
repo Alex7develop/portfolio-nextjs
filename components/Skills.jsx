@@ -8,7 +8,7 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import TypeScript from '../public/assets/skills/typescript.png';
 import NextJS from '../public/assets/skills/nextjs.png';
-import Redux from '../public/assets/skills/redux.png';
+import Redux from '../public/assets/skills/Redux.png';
 import Nodejs from '../public/assets/skills/node.png';
 import Postgres from '../public/assets/skills/Postgre.png';
 import Jest from '../public/assets/skills/jest.png';
