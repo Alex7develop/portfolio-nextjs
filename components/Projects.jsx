@@ -6,6 +6,7 @@ import magazineImg from '../public/assets/projects/magazine.jpg';
 import onlineImg from '../public/assets/projects/online.png';
 import smegImg from '../public/assets/projects/smeg.png';
 import parallaxImg from '../public/assets/projects/2d.png';
+import witcherImg from '../public/assets/projects/witcher.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
 import ProjectItem from './ProjectItem';
 
@@ -42,12 +43,12 @@ const Projects = () => {
             projectUrl="/twitch"
             tech="Next JS Tailwind CSS"
           />
-           <ProjectItem
+           {/* <ProjectItem
             title="CSS & Parallax"
             backgroundImg={parallaxImg}
             projectUrl="/parallax"
             tech="Parallax"
-          />
+          /> */}
            <ProjectItem
             title="CSS & Parallax & Scroll"
             backgroundImg={parallax3dImg}
@@ -65,6 +66,12 @@ const Projects = () => {
             backgroundImg={smegImg}
             projectUrl="/smeg"
             tech="HTML/CSS/JS"
+          />
+             <ProjectItem
+            title="Parallax Witcher"
+            backgroundImg={witcherImg}
+            projectUrl="/witcher"
+            tech="Parallax-Slider"
           />
         </div>
       </div>
