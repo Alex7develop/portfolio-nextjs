@@ -8,6 +8,7 @@ import smegImg from '../public/assets/projects/smeg.png';
 import parallaxImg from '../public/assets/projects/2d.png';
 import witcherImg from '../public/assets/projects/witcher.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
+import cryptoImg from '../public/assets/projects/cryptofinance.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -72,6 +73,12 @@ const Projects = () => {
             backgroundImg={witcherImg}
             projectUrl="/witcher"
             tech="Parallax-Slider"
+          />
+            <ProjectItem
+            title="Crypto-finance"
+            backgroundImg={cryptoImg}
+            projectUrl="/crypto"
+            tech="React/JS"
           />
         </div>
       </div>
