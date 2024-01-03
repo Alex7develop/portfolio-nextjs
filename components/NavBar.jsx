@@ -19,7 +19,13 @@ const NavBar = () => {
       router.asPath === '/magazine' ||
       router.asPath === '/tetris' ||
       router.asPath === '/netflix' ||
-      router.asPath === '/twitch' 
+      router.asPath === '/twitch' ||
+      router.asPath === '/crypto' ||
+      router.asPath === '/smeg' ||
+      router.asPath === '/witcher' ||
+      router.asPath === '/webgame' ||
+      router.asPath === '/parallax3d' ||
+      router.asPath === '/online'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
