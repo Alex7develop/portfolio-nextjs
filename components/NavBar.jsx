@@ -25,7 +25,8 @@ const NavBar = () => {
       router.asPath === '/witcher' ||
       router.asPath === '/webgame' ||
       router.asPath === '/parallax3d' ||
-      router.asPath === '/online'
+      router.asPath === '/online' ||
+      router.asPath === '/defi'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');

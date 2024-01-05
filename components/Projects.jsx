@@ -9,6 +9,7 @@ import parallaxImg from '../public/assets/projects/2d.png';
 import witcherImg from '../public/assets/projects/witcher.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
 import cryptoImg from '../public/assets/projects/cryptofinance.png'
+import DefiImg from '../public/assets/projects/defi-finance.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -78,6 +79,12 @@ const Projects = () => {
             title="Crypto-finance"
             backgroundImg={cryptoImg}
             projectUrl="/crypto"
+            tech="React/JS"
+          />
+            <ProjectItem
+            title="Defi-finance"
+            backgroundImg={DefiImg}
+            projectUrl="/defi"
             tech="React/JS"
           />
         </div>
