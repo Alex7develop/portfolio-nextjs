@@ -10,6 +10,7 @@ import witcherImg from '../public/assets/projects/witcher.png';
 import parallax3dImg from '../public/assets/projects/3d.png';
 import cryptoImg from '../public/assets/projects/cryptofinance.png'
 import DefiImg from '../public/assets/projects/defi-finance.png'
+import coinImg from '../public/assets/projects/coinmarketcap.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -86,6 +87,12 @@ const Projects = () => {
             backgroundImg={DefiImg}
             projectUrl="/defi"
             tech="React/JS"
+          />
+            <ProjectItem
+            title="Coinmarketcap"
+            backgroundImg={coinImg}
+            projectUrl="/defi"
+            tech="React/JS/AntDesign"
           />
         </div>
       </div>
