@@ -91,7 +91,7 @@ const Projects = () => {
             <ProjectItem
             title="Coinmarketcap"
             backgroundImg={coinImg}
-            projectUrl="/defi"
+            projectUrl="/coinmarketcap"
             tech="React/JS/AntDesign"
           />
         </div>
