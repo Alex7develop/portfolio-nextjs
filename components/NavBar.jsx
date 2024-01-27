@@ -26,7 +26,8 @@ const NavBar = () => {
       router.asPath === '/webgame' ||
       router.asPath === '/parallax3d' ||
       router.asPath === '/online' ||
-      router.asPath === '/defi'
+      router.asPath === '/defi' ||
+      router.asPath === '/coinmarketcap'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
